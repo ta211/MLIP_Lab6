@@ -19,7 +19,7 @@ pipeline {
                 sudo /home/team09/miniconda3/condabin/conda init
 
                 # TODO Complete the command to run pytest
-                sudo /home/team09/miniconda3/condabin/conda run -n mlip python pytest numpy pandas scikit-learn -c conda-forge
+                sudo /home/team09/miniconda3/condabin/conda run -n mliplab6-atang1 python pytest numpy pandas scikit-learn -c conda-forge
 
                 # exit 1 #comment this line after implementing Jenkinsfile
                 '''
